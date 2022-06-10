@@ -35,7 +35,7 @@ python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --
 ```
 
 ### Results
- | Baseline (ERM) | Logit adjustment loss |
- | ------------- | ------------- |
+ | |Baseline (ERM) | Logit adjustment loss |
+ | ------------- | ------------- |------------- |
  |CIFAR-10 LT | 2 | 3 |
  |CIFAR-100 LT| 3 | 4 |
