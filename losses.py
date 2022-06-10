@@ -53,10 +53,7 @@ class LALoss(nn.Module):
         base_probs = cls_num_list/cls_num_list.sum()
         scaled_class_weights = tau * torch.log(base_probs + 1e-12)
         scaled_class_weights = scaled_class_weights.reshape(1,-1) #[1,classnum]
-        self.tau = tau
         self.scaled_class_weights = scaled_class_weights.float().cuda()
-        self.prob = base_probs
-
         
     def forward(self, x, target):
         x += self.scaled_class_weights
