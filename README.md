@@ -29,7 +29,6 @@ We provide several training examples with this repo:
 python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --train_rule None
 ```
 
-- 
 - To train the ERM Loss along with DAR-BN on long-tailed imbalance with ratio of 100
 ```javascript
 python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --train_rule DAR-BN
