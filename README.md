@@ -1,6 +1,3 @@
-# logit_adjustment
-Unofficial pytorch implementation on logit adjustment loss
-
 ## Long-tail learning via logit adjustment
 
 Aditya Krishna Menon, Sadeep Jayasumana, Ankit Singh Rawat, Himanshu Jain, Andreas Veit, Sanjiv Kumar. 
