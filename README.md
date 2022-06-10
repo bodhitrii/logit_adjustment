@@ -18,7 +18,7 @@ The code is built with following libraries:
 ### Dataset
 
 - Imbalanced CIFAR. The original data will be downloaded and converted by imbalancec_cifar.py.
-\
+
 
 ### Training 
 
