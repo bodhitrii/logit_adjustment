@@ -13,13 +13,12 @@ The code is built with following libraries:
 - PyTorch 1.2
 - TensorboardX
 - scikit-learn
-//
+\
 
 ### Dataset
 
 - Imbalanced CIFAR. The original data will be downloaded and converted by imbalancec_cifar.py.
-
-//
+\
 
 ### Training 
 
