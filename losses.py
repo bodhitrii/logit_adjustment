@@ -60,7 +60,6 @@ class LALoss(nn.Module):
         
     def forward(self, x, target):
         x += self.scaled_class_weights
-
         return F.cross_entropy(x, target)
 
     
