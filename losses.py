@@ -50,7 +50,6 @@ class LALoss(nn.Module):
     
     def __init__(self, cls_num_list, tau = 1.0):
         super(LALoss, self).__init__()
-        
         base_probs = cls_num_list/cls_num_list.sum()
         scaled_class_weights = tau * torch.log(base_probs + 1e-12)
         scaled_class_weights = scaled_class_weights.reshape(1,-1) #[1,classnum]
