@@ -33,3 +33,8 @@ python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --
 ```javascript
 python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --train_rule DAR-BN
 ```
+
+### Results
+ | Baseline (ERM) | Logit adjustment loss 
+CIFAR-10 LT | 2 | 3
+CIFAR-100 LT| 3 | 4 
