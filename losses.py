@@ -47,6 +47,7 @@ class LDAMLoss(nn.Module):
         return F.cross_entropy(self.s*output, target, weight=self.weight)
 
 class LALoss(nn.Module):
+    ## logit adjustement loss function
     
     def __init__(self, cls_num_list, tau = 1.0):
         super(LALoss, self).__init__()
